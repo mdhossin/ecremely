@@ -45,8 +45,8 @@ export default function HomePage() {
     },
   ];
   return (
-    <div className="flex items-start gap-4">
-      <div className="w-[430px] bg-white rounded p-4 shadow-md min-h-[95vh] fixed top-[80px]">
+    <div className="flex items-start gap-4 flex-col lg:flex-row pl-4 pr-4 lg:pl-0 lg:pr-0">
+      <div className="w-full lg:w-[430px] bg-white rounded p-4 shadow-md h-full lg:min-h-[95vh] lg:fixed top-[80px] mt-[80px] lg:mt-0 pb-[80px]">
         <div className="flex items-center justify-between">
           <div>
             <h4 className="text-[#79868c] text-base font-semibold flex items-center gap-3">
@@ -71,7 +71,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="ml-[450px] bg-[#F2F4F8] rounded shadow-md min-h-[100vh] relative w-full ">
+      <div className="lg:ml-[450px] bg-[#F2F4F8] rounded shadow-md min-h-[100vh] relative w-full ">
         <div className="header sticky top-0 left-0 px-3 py-4 bg-white z-50">
           <div className="flex items-center justify-between">
             <div>
